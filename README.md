@@ -1,11 +1,16 @@
 How to Use
-==========
+==============
+
 1- Save both scripts in the same directory
 2- Install required packages:
-	pip install dnspython email-validator disposable-email-domains pandas tqdm
+    
+    pip install dnspython email-validator disposable-email-domains pandas tqdm
+
 3- Run the validator:
-	python email_validator_local.py your_email_list.csv
+
+    python email_validator_local.py your_email_list.csv
 	
+    
 Key Features
 ============
 
