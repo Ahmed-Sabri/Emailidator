@@ -2,6 +2,9 @@ How to Use
 ==============
 
 1- Save both scripts in the same directory
+
+    git clone https://github.com/Ahmed-Sabri/Emailidator.git
+
 2- Install required packages:
     
     pip install dnspython email-validator disposable-email-domains pandas tqdm
