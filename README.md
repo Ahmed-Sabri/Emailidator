@@ -7,11 +7,14 @@ How to Use
 
 2- Install required packages:
     
-    pip install dnspython email-validator disposable-email-domains pandas tqdm
+    pip install dnspython email-validator disposable-email-domains pandas tqdm aiosmtpd openpyxl
 
 3- Run the validator:
 
-    python email_validator_local.py your_email_list.csv
+    python email_validator_local.py your_email_list.csv  
+    
+	    ### NOTE ###
+	    Whethe you use txt, or xls, or xlsx, or csv .. all what is required is the first column with the list of emails and the header should be "email"
 	
     
 Key Features
